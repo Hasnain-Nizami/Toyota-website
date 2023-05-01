@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #fff !important;
+    width: 95%;
+    font-size: 11px;
+    font-weight: bold;
+    
+    
+}
+.toyota{
+    color: #eb0a1e;
+    font-weight: bold;
+    font-size: 23px;
+}
+.gp{
+    gap: 15px;
+}
+
+.section{
+ width: 100%;
+ height: 65vh !important;
+}
+.section img{
+width: 100%;
+height: 100%;
+}
+.buton{
+    border: 1px solid black;
+    padding: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.flec{
+    position: relative;
+}
+.absolute{
+ position: absolute;
+ bottom: 0;
+ color: #fff;
+ padding-left: 10px;
+}
+.absolute p{
+    background-color: red;
+    width: 55px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.absolute h3{
+    font-size: 19px;
+}
+.toyoda a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #034f6d;
+
+}
+.toyoda a:hover{
+    color: #eb0a1e;
+}
+.flag{
+    
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-top: 10px;
+    
+    
+}
+.flag1{
+    width: 50%;
+    height: 100%;
+    
+}
+.flag1 img{
+    width: 100%;
+    height: 100%;
+}
+.flag2{
+    width: 50%;
+    height: 100%;
+    
+    padding-left: 20px;
+}
+.flag p{
+    font-size: 9px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+}
+.flag h3{
+    font-size: 22px;
+
+}
+.flag h4{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.more{
+    margin-left: 90%;
+    font-weight: bold;
+}
+.chance{
+    position: relative;
+    margin-top: 15px;
+}
+.chances{
+    background-color: #eb0a1e;
+    width: 100%;
+    height: 90vh;
+}
+.chances img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.6);
+}
+.chances1{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+.chances1 p{
+    background-color: #eb0a1e;
+    width: 50px;
+    font-size: 10px;
+}
+.chances1 span{
+    font-size: 11px;
+}
+.chances1 h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.chance2{
+    position: relative;
+}
+.chan{
+    background: red;
+    width: 100%;
+    height: 90vh;
+}
+.chan img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.7);
+}
+.cha{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+   
+}
+.cha p{
+    background-color: #eb0a1e;
+    width: 50px;
+    font-size: 10px;
+}
+.cha span{
+    font-size: 11px;
+}
+.cha h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.flexing{
+    display: flex;
+    width: 100%;
+}
+.Newsroom{
+    width: 50%;
+    height: 100%;
+    border-right:2px solid rgb(195, 193, 193) ;
+    border-top:2px solid rgb(195, 193, 193) ;
+}
+.Latestupdate{
+    width: 50%;
+    height: 100%;
+    border-top:2px solid rgb(195, 193, 193) ;
+}
+.moreflex{
+    display: flex;
+    padding: 20px 0px 0px 30px;
+}
+.moreflex h2{
+    font-weight: bold;
+}
+.moreflex p{
+    padding-top: 10px;
+    margin-left: 60%;
+    font-size: 18px;
+}
+.pic-pera-flex{
+    display: flex;
+    width: 100%;
+    height: 128px;
+    margin-bottom: 5px;
+}
+.pic{
+    width: 30%;
+    height: 100%;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.pera{
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+.pera p{
+    font-size: 15px;
+    margin-left: 3px;
+}
+.pera span{
+    font-size: 11px;
+}
+.latest{
+    margin-bottom: 15px;
+}
+.color{
+    background-color: #f1f1f1;
+}
+.cardflex{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 50px;
+}
+.cardflex img{
+    width: 100%;
+    height: 100%;
+}
+.card3{
+    width: 28%;
+    height: 85%;
+    transition: 0.7s;
+}
+.card3 p{
+text-align: center;
+margin-top: 5px;
+font-weight: bold;
+}
+.card3:hover{
+    filter: brightness(0.3);
+}
+.notice{
+    margin-top: 55px;
+    padding: 50px 110px 30px 110px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+.notice h2{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 38px;
+    color: #212121;
+}
+.transfer{
+    display: flex;
+    gap: 20px;
+}
+.transfer span{
+    font-size: 12px;
+    margin-top: 2px;
+}
+.transfer p{
+    font-size: 15px;
+    color: #024762;;
+}
+.privacy-notice{
+    width: 100%;
+    height: 250px;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    padding: 38px 30px 50px 30px;
+}
+.privacy{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+}
+.privacy p{
+    color: #fff;
+    font-weight: bold;
+}
+.solid{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.flex-logo{
+    display: flex;
+    gap: 15px;
+}
+.social-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(./assetes/Facebook-Logo-PNG-Clipart-Background-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.social-logo1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(./assetes/Instagram_icon.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.social-logo2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(./assetes/png-clipart-twitter-twitter-thumbnail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.social-logo3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(./assetes/whatsapp-logo-3d-render_68185-1130.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.footer{
+    width: 100%;
+    padding: 30px 25px 20px 45px;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    gap: 50px;
+}
+.footer p{
+    color: white;
+    font-size: 13px;
+}
+.cookie:hover{
+    transition: 0.6s;
+    color: #eb0a1e;
+    cursor: pointer;
+}
